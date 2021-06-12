@@ -1,4 +1,4 @@
-# Relfections
+# Reflections
 ## Matt Reflection:
 ### Q1: Do you think ROS is beneficial for developing a robotic application? Explain your answer.
 Place holder
