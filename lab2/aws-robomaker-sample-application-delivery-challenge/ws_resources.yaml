@@ -1,0 +1,10 @@
+bucket_name: deliverychallengevocstar-robomakerdeliverychallen-18qis0i4vzf2t
+cognito_identity_pool_id: us-east-1:d3c122c1-efc0-4432-8f98-224563f4fdd3
+iam_role: arn:aws:iam::773769896243:role/delivery-challenge-simulation-role-us-east-1
+iot_certificate: arn:aws:iot:us-east-1:773769896243:cert/cc449c92d2c9b30c76ed6557f95b365b110cb56fb61d4f51b69b91da42c90037
+iot_iam_role: arn:aws:iam::773769896243:role/delivery-challenge-iot-role-us-east-1
+iot_policy: arn:aws:iot:us-east-1:773769896243:policy/deliverychallengevocstartsoft-RoboMakerDeliveryChallengeIoTPolicy-WZ3PCV8T524S
+iot_role_alias: Cloud9-deliverychallenge_role_alias-210716-231331
+iot_thing: deliverychallengevocstartsoft-RoboMakerDeliveryChallengeThing-164FATQPL112L
+robot_app_name: deliverychallenge_robot_user1472130-rrezinkin-myseneca-ca
+simulation_app_name: deliverychallenge_sumulation_user1472130-rrezinkin-myseneca-ca
