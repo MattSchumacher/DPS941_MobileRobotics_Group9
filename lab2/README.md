@@ -1,14 +1,14 @@
 # Reflections
-## Matt Reflection:
+## Matt's Reflection:
 ### Q1: What is mapping in autonomous robotics?
-Place holder
+Mapping creates an environment that a robot will be able to interpret and use to navigate around its surroundings. The robot uses a variety od sensors, cameras and lasers to navigate. The goal of mapping is for a robot to autonomously navigate its environment. 
 ### Q2: How important is the map’s accuracy for the robot’s autonomous navigation task? 
-Place holder
+The accuracy of the map is important because if the map is not accurate than there is the potential for the robot to become lost. 
 ### Q3: What are dynamic objects in autonomous robotics? Either explain or provide some examples.
-Place holder
+Dynamic objects are objects that are moving. A few examples of these would be in a robot map, if you had blocks that could move horizontally or vertically that the robot could bump into. In a real-life practical sense, a self driving car would have to be aware of other cars which are dynamic objects because they are moving, but it would also be aware of signs such as a stop sign and traffic lights that would be considered static as they are not moving. 
 ### Q4: Should the dynamic objects be present when mapping an arena? Explain the reason for your answer.
-Place holder
-## Roman Reflection:
+In my opinion we should not map out dynamic objects because they are not truly part of the map.  The only situation I could see for potentially mapping out a dynamic object, is if that object will be in the same area, moving the same way, on a consistent basis. For example, if there is a map of a building and there is an elevator moving up and down, I would personally map that. The elevator is in the same spot, moving the same way, and it will always be there. If these conditions are not met, I would refrain from mapping a dynamic object. 
+## Roman's Reflection:
 ### Q1: What is mapping in autonomous robotics?
 Mapping is the process of understanding an environment for a robot. When robots navigate, they are continuously building a map of its surroundings. This allows for robots to be familiar with the setting they are in, which will enable them to safely navigate autonomously.
 ### Q2: How important is the map’s accuracy for the robot’s autonomous navigation task? 
