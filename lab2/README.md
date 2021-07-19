@@ -3,7 +3,7 @@
 ### Q1: What is mapping in autonomous robotics?
 Mapping creates an environment that a robot will be able to interpret and use to navigate around its surroundings. The robot uses a variety of sensors, cameras and lasers to navigate. The goal of mapping is for a robot to autonomously navigate its environment. 
 ### Q2: How important is the map’s accuracy for the robot’s autonomous navigation task? 
-The accuracy of the map is important because if the map is not accurate than there is the potential for the robot to become lost. 
+The accuracy of the map is important because if the map is not accurate than there is the potential for the robot to become lost. Or the robot may be able to succesfully navigate, but with significant errors such as bumping into static objects, potentially damaging the robot.
 ### Q3: What are dynamic objects in autonomous robotics? Either explain or provide some examples.
 Dynamic objects are objects that are moving. A few examples of this would be in a robot map, if you had blocks that could move horizontally or vertically that the robot could bump into. In a real-life practical sense, a self driving car would have to be aware of other cars which are dynamic objects because they are moving, but it would also be aware of signs such as a stop sign and traffic lights which would be considered static as they are not moving. 
 ### Q4: Should the dynamic objects be present when mapping an arena? Explain the reason for your answer.
