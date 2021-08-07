@@ -8,7 +8,7 @@
 
 ### Q4: What is inflation radius (in the context of autonomous navigation).
 
-### Q5: Which navigation paramters did you tune using the document in the link below?
+### Q5: Which navigation parameters did you tune using the document in the link below?
 
 ## Roman's Reflection:
 ### Q1: What is autonomous navigation in mobile robotics?
@@ -19,4 +19,4 @@
 
 ### Q4: What is inflation radius (in the context of autonomous navigation).
 
-### Q5: Which navigation paramters did you tune using the document in the link below?
+### Q5: Which navigation parameters did you tune using the document in the link below?
