@@ -1,15 +1,15 @@
 # Reflections
 ## Matt's Reflection:
 ### Q1: What is autonomous navigation in mobile robotics?
-
+Autonomous navigation is the ability for a robot to plan and execute a path, without the aid of a person. For lab 3, our robot had to meet at a specific destination that was marked with coordinates. There were two other robots, that our robot had to recognize using its sensors so it could avoid them. This was all done without any human assistance while the robot begins its journey. 
 ### Q2: What parameters does the robot navigation algorithm consider when planning a path? 
-
+Looking at the tuning notes there are several parameters that can be added to maximize the success of the robot. The first would be inflation_radius. Inflation_radius is responsible for making the distance between the robot and an obstacle closer or further depending on how much of a distance a programmer would want a robot and obstacle to be from one another. The next parameter would be cost_scaling_factor. Cost_scaling_factor is responsible for assigning a value to every object on the map. When the robot is traversing through the map, the robot is calculating whether going down the middle with some moving obstacles might be a faster route vs going along the outside which might pose less risk to the robot but take a longer time. 
 ### Q3: What is a cost map (in the context of autonomous navigation).
-
+The cost map is the map the robot traverses through. All obstacles, paths and dynamic vs static objects have a cost. When the robot is programmed to perform a specific action, it is running some calculations that will allow it to successfully perform an action, sometimes this can be at the expense of speed, or efficiency, and other times it is possible to have the action be performed with speed and efficiency. It all comes down to the individual map the robot is navigating. 
 ### Q4: What is inflation radius (in the context of autonomous navigation).
-
+Inflation radius in autonomous navigation refers to the radius in which a robot perceives danger. The higher the inflation radius the further away the robot would be from an obstacle. This changes the cost map, when obstacles have a higher inflation radius, the robot will have to calculate which path will lead to success. 
 ### Q5: Which navigation parameters did you tune using the document in the link below?
-
+The navigation parameters that we changed were sim_time to 5.00 in dwa_local_planner, as well as inflation_radius to 10.00 in costmap_common_params file. In the dwa_local_planner, we changed max_vel_x to 3.00, max_rot_vel to 6.00 and min_rot_vel to 3.00, acc_lim_x to 10, the acc_lim_theta to 10.
 ## Roman's Reflection:
 ### Q1: What is autonomous navigation in mobile robotics?
 Autonomous navigation in mobile robotics could be defined as the robot having the ability to make it's own decision and act upon them, in this case being, navigating around a world to a specified coordinate location. Using several sensors, the robot percieves it's location in the world, scans the "dangers" around it self and acts accordingly.
