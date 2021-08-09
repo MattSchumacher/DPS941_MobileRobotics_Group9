@@ -21,4 +21,4 @@ a map. For example, the cost of navigating in the center section of the default 
 ### Q4: What is inflation radius (in the context of autonomous navigation).
 The inflation radius in autonomous navigation increases the inflation area around an obstacle. The higher the inflation radius, the "scarier" the object is to robot. When the robot sees a higher inflation radius for objects, it accordingly changes the cost map for itself, to ensure a clear path with the least amount of issues.
 ### Q5: Which navigation parameters did you tune using the document in the link below?
-The navigation parameters that we changed were sim_time in dwa_local_planner, as well as inflation_radius and cost_scaling_factor in costmap_common_params file.
+The navigation parameters that we changed were sim_time to 5.00 in dwa_local_planner, as well as inflation_radius to 10.00 in costmap_common_params file. In the dwa_local_planner, we changed max_vel_x to 3.00, max_rot_vel to 6.00 and min_rot_vel to 3.00, acc_lim_x to 10, the acc_lim_theta to 10.
