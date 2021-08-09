@@ -6,4 +6,4 @@
 | --------------- | ------------------------------------------------------------------------------- | 
 | Lab 1 challenge | https://web.microsoftstream.com/video/1a6a08a8-87e8-4711-b7fd-dedcfc5a6022      |
 | Lab 2 challenge | https://web.microsoftstream.com/video/003f8bc3-cc06-467a-9e2e-0397f46d1c08      | 
-| Lab 3 challenge | https://web.microsoftstream.com/video/d5dbc3f5-b1fd-472d-9f4d-8884dda7c272      | 
+| Lab 3 challenge | https://web.microsoftstream.com/video/7fc8a475-5a9a-41f8-9c11-45a7f0b7e2be      | 
